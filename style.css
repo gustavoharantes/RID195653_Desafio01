@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+#titulo1{
+    color: #FFFFFF;
+    margin-top: -275px;
+    margin-left: 62px;
+    font-size: 60px;
+    letter-spacing: -2,5%;
+    font-weight: 600;
+    height: 72px;
+    width: 1024px;
+
+}
+#paragrafo1{
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 62px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+#estrutura1{
+    background-image: url(imagens/cabecalho.svg);
+    background-size: cover;
+    height: 475px;
+    width: 1440px;
+
+}
+#infos{
+    width: 1440px;
+    height: 229px;
+    top: -42px;
+    left: -656px;
+}
+#estrutura3{
+    width: 1440px;
+    height: 779px;
+    display: flex;
+    flex: column;
+    align-items: center;
+    
+}
+#tituloestrutura3{
+font-family: "Inter";
+color: #000000;
+font-weight: 500;
+font-size: 40px;
+line-height: 20px;
+padding-bottom: 50px;
+margin-left: 80px;
+white-space: nowrap;
+}
+#textoestrutura3{
+font-family: "Inter";
+color: #000000;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+line-height: 1;
+margin-left: 80px;
+white-space: nowrap;
+}
+#imgprojeto{
+    width: 510px;
+    height: 605px;
+    top: 781px;
+    margin-left: 90px;
+    border-radius: 30px;
+}
+#formulario{
+    background-color: #303030;
+    background-size: cover;
+    height: 638px;
+    width: 1440px;
+    text-align: center;
+    
+    display: grid;
+    place-items: center;
+}
+#tituloformulario{
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+input{
+    font-family: "Raleway";
+    background-color: #FFFFFF;
+    width: 508px;
+    height: 72px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    font-size: 24px;
+    color: #858383c4;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: 100px;
+    margin-top: 30px;
+}
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    left: 577px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 0px;
+    opacity: 0px;
+    font-family: "Raleway";
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #C07212;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #11073d7e ; 
+    transition-duration: 0.5s; 
+}
+
